@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Video Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#videos">Videos</a></li>
+        </ul>
+    </nav>
+
+    <section id="images">
+        <h2>Image Gallery</h2>
+        <table>
+            <tr>
+                <td>
+                    <img id="myImage1" src="img1.jpg" alt="Image 1" width="300" height="300">
+                    <button id="changeImageBtn1">Change Image</button>
+                </td>
+                <td>
+                    <img id="myImage2" src="img3.jpg" alt="Image 3" width="300" height="300">
+                    <button id="changeImageBtn2">Change Image</button>
+                </td>
+                <td>
+                    <img id="myImage3" src="img5.jpg" alt="Image 5" width="300" height="300">
+                    <button id="changeImageBtn3">Change Image</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="videos">
+        <h2>Video Gallery</h2>
+        <table>
+            <tr>
+                <td>
+                    <video id="myVideo1" controls width="300" height="300">
+                        <source src="m1.mp4" type="video/mp4">
+                    </video>
+                    <button id="changeVideoBtn1">Change Video</button>
+                </td>
+                <td>
+                    <video id="myVideo2" controls width="300" height="300">
+                        <source src="m2.mp4" type="video/mp4">
+                    </video>
+                    <button id="changeVideoBtn2">Change Video</button>
+                </td>
+                <td>
+                    <video id="myVideo3" controls width="300" height="300">
+                        <source src="m3.mp4" type="video/mp4">
+                    </video>
+                    <button id="changeVideoBtn3">Change Video</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
